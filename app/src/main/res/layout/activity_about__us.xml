@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".About_Us">
+
+
+    <androidx.appcompat.widget.Toolbar
+
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/Toolbartheme"
+        android:background="@android:color/holo_blue_dark"
+        />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:text="About us /Our mission"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@android:color/white">
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Youth empowerment foundation is one such organization to direction these arrows through their initiatives and programs. Empowering youths to grow, learn and be the torchbearers for the future is one of the major impacts the organisation aims to achieve. YEF is a non profit organization founded in June 2017 by Mr. Rambabu Sharma. Inspired by his own life journey, the founder along with his team has laid a strong foundation to educate the underprivileged children of the society and hence bridge the gap between them and the world. As explained by the founder himself in his story, poverty and education are inextricably linked, because people living in poverty may stop going to school , so they can work which leaves them without literacy that they need for their careers. Education in all different forms is a key for breaking the cycle of poverty. It increases food security, decreases malnutrition, enhances standard of living and improves gender equality. It teaches children what they can and should expects from adults and in turn also shows adults the benefits of respecting their children’s rights. With the different kinds of training and initiatives such as hamari paathshala, Candle making , English learning, computer learning and training, YEF is providing a platform that will help these children to grow for themselves as well as for the society. Skills taught by YEF such as an additional language , or any other skill help these children to be on their own and hence be the strongest pillars of the society in every aspect. It also helps to develop confidence which in turn adds to their mind development and mental health. Being able to look up to themselves for their careers and being self dependent leaves them with a spark that brings out the best in these children." />
+
+
+            </ScrollView>
+        </FrameLayout>
+</LinearLayout>

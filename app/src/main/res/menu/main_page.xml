@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_intern"
+            android:title="Internship opportunity" />
+        <item
+            android:id="@+id/nav_donate"
+            android:title="Donation" />
+
+
+    </group>
+
+
+    <item android:title="Profile">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_Login"
+                    android:title="Login" />
+
+                <item
+                    android:id="@+id/nav_Profile"
+                    android:title="Profile" />
+
+                <item
+                    android:id="@+id/nav_Logout"
+                    android:title="Logout" />
+
+            </group>
+
+        </menu>
+
+    </item>
+
+
+    <item android:title="Communicate">
+
+        <menu>
+
+
+            <item
+                android:id="@+id/nav_locate"
+                android:title="Locate us" />
+
+            <item
+                android:id="@+id/nav_contact"
+                android:title="Contact us" />
+
+
+        </menu>
+
+
+    </item>
+
+
+    <item
+        android:id="@+id/aboutius">
+
+        <menu>
+
+
+
+            <item
+
+                android:id="@+id/about_us"
+                android:title="About us" />
+
+            <item
+
+                android:id="@+id/about_the_founder"
+                android:title="About the founder"
+                />
+
+
+        </menu>
+
+
+    </item>
+    <item
+        android:id="@+id/more">
+
+        <menu>
+
+
+
+            <item
+
+                android:id="@+id/more_yef"
+                android:title="More" />
+
+
+
+
+        </menu>
+
+
+    </item>
+
+
+</menu>
